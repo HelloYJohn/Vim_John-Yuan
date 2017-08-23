@@ -100,3 +100,11 @@ au FileType * setlocal formatoptions-=cro
 "============== macro begin ==========
 let @a = ":e<CR>G?============================Before constant optimize begin<CR>"
 "============== macro end ============
+
+"============== tabnew dirscription begin ==========
+" tabnew 打开一个新的tab
+" tabc 关闭一个新的tab
+" tabo 关闭其他的tab
+" tabn 下一个tab
+" tabp 上一个tab
+"============== tabnew dirscription begin ==========
