@@ -29,27 +29,27 @@ inoremap <C-Y> viw
 vnoremap <C-Y> iw
 noremap <C-Y> viw
 
-inoremap <F4>   <esc>:set hlsearch<cr>
-vnoremap <F4> <esc>:set hlsearch<cr>
-nnoremap <F4> :set hlsearch<cr>
-inoremap <F3> <esc>:set nohlsearch<cr>
-vnoremap <F3> <esc>:set nohlsearch<cr>
-nnoremap <F3> :set nohlsearch<cr>
+"inoremap <F4>   <esc>:set hlsearch<cr>
+"vnoremap <F4> <esc>:set hlsearch<cr>
+"nnoremap <F4> :set hlsearch<cr>
+"inoremap <F3> <esc>:set nohlsearch<cr>
+"vnoremap <F3> <esc>:set nohlsearch<cr>
+"nnoremap <F3> :set nohlsearch<cr>
 
 inoremap <F2> :source ~/.vimrc<cr>
 vnoremap <F2> :source ~/.vimrc<cr>
 nnoremap <F2> :source ~/.vimrc<cr>
 
-nnoremap <C-/>s :cs find s <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-/>g :cs find g <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-/>c :cs find c <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-/>t :cs find t <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-/>e :cs find e <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-/>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
-nnoremap <C-/>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
-nnoremap <C-/>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+"nnoremap <C-/>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+"nnoremap <C-/>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+"nnoremap <C-/>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
-nnoremap <F12> :TlistToggle
+"nnoremap <F12> :TlistToggle
 
 "inoremap ( ()<Esc>i
 "inoremap [ []<Esc>i
